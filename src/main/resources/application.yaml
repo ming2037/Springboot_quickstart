@@ -1,0 +1,19 @@
+#容易阅读
+#容易与脚本语言交互
+#以数据为核心，重数据轻格式
+name: SpringBoot
+
+#像一下这种方式，以后mybatis整合时会用到，
+#  我创建一个mybatis类，在这里写完信息，然后我用的时候通过那个类就可以把相应的信息拷走了
+#可以快速的转换成一个对象
+student:
+  name: admin
+  age: 20
+  number: 130322999
+  hobbies:
+    - sing
+    - dance
+    - rap
+    - basketball
+server:
+  port: 8080
